@@ -1,0 +1,55 @@
+Install Git
+
+create a new repository on the command line
+
+Step1: In GitHub Web add new repository
+
+Step2: cd to the project, and command
+git init
+
+Step3: Push our code to the local Git repository
+git add .
+
+
+Step4: git commit -m "Initial commit"  (Can Change Commit)
+
+Step5: git branch -M main 
+
+Step6: git remote add origin https://github.com/Benson1223/data-loader-under-dev1-.git
+
+Step7: git push -u origin main
+
+
+push an existing repository from the command line
+git remote add origin https://github.com/Benson1223/data-loader-under-dev1-.git
+git branch -M main
+git push -u origin main
+
+
+新增一個檔案進去已經建立好的儲存庫
+git add <檔案名稱>
+git commit -m "Add new file"
+git push origin main
+
+
+Git Clone
+Step1: cd to your dir
+Step2: git clone https://github.com/Benson1223/data-loader-under-dev1-
+
+
+
+
+Git Upload one file
+
+Step1: init
+Step2: git add visiualize.py
+Step3:　git commit -m "Add new Python file"
+Step4: 
+git remote add origin https://github.com/Benson1223/data-loader-under-dev1-
+git branch -M main
+git push -u origin main
+　
+maybe some problem:
+solve1: git pull origin main
+solve2: git pull origin main --allow-unrelated-histories
+solve3: git push origin main
