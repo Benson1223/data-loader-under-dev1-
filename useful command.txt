@@ -1,0 +1,58 @@
+<linux command> 
+
+可以使用 touch 命令来创建一个空白的文本文件
+touch filename.txt
+
+使用touch命令创建空白的Python文件
+touch filename.py
+
+copy file
+cp test.py /path/to/destination/test1.py
+
+解壓縮
+unzip filename.zip -d /path/to/destination
+unzip filename.zip 
+
+刪除檔案
+rm filename.txt
+rm file1.txt file2.txt file3.txt
+rm -i filename(刪除前再次確認)
+
+離開
+exit
+
+取得當前路徑
+pwd
+
+取得當前資料夾與檔案名稱
+ls
+
+建立資料夾
+mkdir hello_world
+
+使用最高權限執行
+sudo
+
+移動檔案
+mv source_file target
+mv -f source_file target
+mv -i source_file target
+mv -n source_file target
+# 範例
+mv -i test.rb /tmp/
+
+
+查看指令說明
+help
+指令 --help
+指令 -h
+# 範例
+cp --help
+cp -h
+
+複製整包資料夾
+cp -r source_folder destination_folder
+
+clone environment指令：
+conda create --name new_env_name --clone existing_env_name
+
